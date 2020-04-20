@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Frederik Runge-Dalag\\Source\\Repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj": {}
+    "C:\\Users\\Frederik Runge-Dalag\\source\\repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Frederik Runge-Dalag\\Source\\Repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj": {
+    "C:\\Users\\Frederik Runge-Dalag\\source\\repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frederik Runge-Dalag\\Source\\Repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj",
+        "projectUniqueName": "C:\\Users\\Frederik Runge-Dalag\\source\\repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj",
         "projectName": "GUI_EX2_Buffet",
-        "projectPath": "C:\\Users\\Frederik Runge-Dalag\\Source\\Repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj",
+        "projectPath": "C:\\Users\\Frederik Runge-Dalag\\source\\repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\GUI_EX2_Buffet.csproj",
         "packagesPath": "C:\\Users\\Frederik Runge-Dalag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frederik Runge-Dalag\\Source\\Repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\obj\\",
+        "outputPath": "C:\\Users\\Frederik Runge-Dalag\\source\\repos\\FDalager\\GUITESTTAMTAM\\GUI_EX2_Buffet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Frederik Runge-Dalag\\AppData\\Roaming\\NuGet\\NuGet.Config",

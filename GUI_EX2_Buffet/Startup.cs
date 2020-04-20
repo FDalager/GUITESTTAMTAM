@@ -12,6 +12,7 @@ using GUI_EX2_Buffet.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace GUI_EX2_Buffet
 {
@@ -37,7 +38,8 @@ namespace GUI_EX2_Buffet
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<IdentityUser> userManager, ApplicationDbContext DbContext,
+            ILogger<Startup> log)
         {
             if (env.IsDevelopment())
             {
@@ -55,6 +57,8 @@ namespace GUI_EX2_Buffet
 
             app.UseRouting();
 
+
+            DBHelper.SeedData(DbContext, userManager, log);
             app.UseAuthentication();
             app.UseAuthorization();
 
@@ -65,6 +69,7 @@ namespace GUI_EX2_Buffet
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
+
         }
     }
 }
